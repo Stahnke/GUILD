@@ -10,7 +10,7 @@ public class UsePotionTest : MonoBehaviour {
 
 		Debug.Log ("Begin Test: Use Potion");
 	
-		Potion potion = new Potion ();	//We have to create a new potion, to use it (Normally we would just access it from our inventory)
+		ConsumableItem potion = new Potion ();	//We have to create a new potion, to use it (Normally we would just access it from our inventory)
 		CharacterStats stats = testCharacter.GetComponent<CharacterStats> (); //We don't have to create a new character, 
 																			  //because there is already one in the environment
 
